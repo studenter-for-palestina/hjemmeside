@@ -18,7 +18,6 @@ export default {
         primary: '#f9f7e9',             // background color
         second: '#2f6b25',              // main green color
         third: '#f44d1f',               // main orange color
-        fourth: '#1c9666',              // secondary green color
       },
     },
   },
