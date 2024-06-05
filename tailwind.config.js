@@ -17,7 +17,9 @@ export default {
         current: 'currentColor',
         primary: '#f9f7e9',             // background color
         second: '#2f6b25',              // main green color
-        third: '#f44d1f',               // main orange color
+        third: '#295c20',               // dark green color
+        fourth: '#f44d1f',               // main orange color
+
       },
     },
   },

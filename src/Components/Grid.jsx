@@ -1,20 +1,36 @@
-function Grid(){
+import EventButton from "./Sub-components/Event-kalender-button.jsx";
+import SimpleButton from "./Sub-components/simple-button.jsx";
+import ComplexButton from "./Sub-components/complex-button.jsx";
+
+
+function Grid(obj){
     return(
-        <div class=" w-full h-full grid grid-cols-4 grid-rows-6 gap-4 p-10">
+        <div class=" h-screen grid grid-cols-4 grid-rows-4 gap-6 p-10 outline-none">
 
-            <div class="row-span-1 flex">
-                <div class ="bg-white rounded-full mr-4">
-                    <img src="/logo.png" alt="placeholder" class="rounded-full size-40"/>
-                </div>
-                <p class = "uppercase content-center w-32 text-xl leading-tight"> Studenter for palestina trondheim</p> {/* trondheim should be a varible that can be changes with another city*/}
+            <div class="row-start-1 col-start-1 row-span-1">
+                <a href="https://palestinakomiteen.no/?doing_wp_cron=1717623410.9656150341033935546875" class="flex" target="_blank">
+                    <img src="/logo.png" alt="logo" class="bg-white rounded-full size-40 mr-4"/>
+                    <p class = "uppercase content-center text-2xl leading-tight"> Studenter for palestina {obj.by}</p>
+                </a>
             </div>
 
-            <div class="row-start-2 row-span-3 bg-second rounded-3xl">
-                <p class="text-white text-5xl grid-rows-subgrid">
-                    Event-Kalender
-                </p>
-            </div>
-            <div class="row-span-2 col-span-2">03</div>
+            <EventButton/>
+
+            <ComplexButton row_loc="row-start-1" col_loc="col-start-2" span="row-span-1" img="members.svg" img_style = "size-20" text = "om oss"/>
+
+            <SimpleButton row_loc="row-start-2" col_loc="col-start-2" span="row-span-1" link = {obj.bli_medlem_link} img="members.svg" img_style = "size-20 " text="Bli medlem"/>
+            
+            <ComplexButton row_loc="row-start-3" col_loc="col-start-2" span="row-span-2" img="members.svg" img_style = "size-20" text = "Ressurser"/>
+
+            <ComplexButton row_loc="row-start-1" col_loc="col-start-3" span="row-span-2" img="members.svg" img_style = "size-20" text = "Solidaritetscamp Thawra"/>
+
+            <ComplexButton row_loc="row-start-3" col_loc="col-start-3" span="row-span-2" img="members.svg" img_style = "size-20" text = "Ønskeliste"/>
+
+            <SimpleButton row_loc="row-start-1" col_loc="col-start-4" span="row-span-2" link = {obj.spleis_link} 
+            img="members.svg" img_style = "size-20 " text="Spleis"/>
+
+            <SimpleButton row_loc="row-start-3" col_loc="col-start-4" span="row-span-2" img="members.svg" img_style = "size-20" link = {obj.placeholder} text = "PLACEHOLDER"/>
+
         </div>
     )
 }
