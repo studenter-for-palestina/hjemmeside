@@ -15,10 +15,11 @@ export default {
       colors: {
         transparent: 'transparent',
         current: 'currentColor',
-        primary: '#f9f7e9',             // background color
-        second: '#2f6b25',              // main green color
-        third: '#295c20',               // dark green color
-        fourth: '#f44d1f',               // main orange color
+        main_bg: '#f9f7e9',               // background color
+        main_green: '#2f6b25',            // main green color
+        hover_green: '#295c20',           // dark green color
+        main_orange: '#f44d1f',           // main orange color
+        main_gray: '#292D32',             // dark grey color
 
       },
     },
