@@ -20,16 +20,16 @@ function App() {
       spleis_link = "https://www.spleis.no/project/371936"
       placeholder = "/"
       />
-	  <Kalender 
-	  visibility = {convertToOpposite(visibility)}
-	  events = {[
-		{title: "Event 1", date: "2021-10-10", time: "10:00", location: "Trondheim", description: "This is a description of event 1", link: "https://www.google.com"
-		},
-		{title: "Event 2", date: "2021-10-11", time: "11:00", location: "Oslo", description: "This is a description of event 2", link: "https://www.google.com"
-		},
-		
-		]}
-	  />
+      
+      <Kalender 
+      visibility = {convertToOpposite(visibility)}
+      events = {[
+      {title: "Event 1", date: "2021-10-10", time: "10:00", location: "Trondheim", description: "This is a description of event 1", link: "https://www.google.com"
+      },
+      {title: "Event 2", date: "2021-10-11", time: "11:00", location: "Oslo", description: "This is a description of event 2", link: "https://www.google.com"
+      },
+      ]}
+      />
 
     </div>
   )
