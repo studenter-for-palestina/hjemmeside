@@ -1,2 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg width="800px" height="800px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><title>ONE-xicons</title><path d="M24,48A24,24,0,1,1,48,24,24,24,0,0,1,24,48ZM24,1A23,23,0,1,0,47,24,23,23,0,0,0,24,1Z"/><path d="M31.5,24.5h-15a0.5,0.5,0,0,1,0-1h15A0.5,0.5,0,0,1,31.5,24.5Z"/><path d="M24,32a0.5,0.5,0,0,1-.5-0.5v-15a0.5,0.5,0,0,1,1,0v15A0.5,0.5,0,0,1,24,32Z"/><rect width="48" height="48" fill="none"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 48 48"><path d="M24 48a24 24 0 1 1 24-24 24 24 0 0 1-24 24Zm0-47a23 23 0 1 0 23 23A23 23 0 0 0 24 1Z"/>
+    <path d="M31.5 24.5h-15a.5.5 0 0 1 0-1h15a.5.5 0 0 1 0 1Z"/>
+    <path d="M24 32a.5.5 0 0 1-.5-.5v-15a.5.5 0 0 1 1 0v15a.5.5 0 0 1-.5.5Z"/><path fill="none" d="M0 0h48v48H0z"/>
+</svg>
