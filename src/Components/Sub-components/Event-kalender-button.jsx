@@ -8,7 +8,7 @@ function EventButton() {
     }
 
     return (
-        <button class="grid grid-rows-subgrid row-start-2 row-span-3 bg-main_green rounded-3xl outline-none hover:bg-hover_green group"
+        <button class="sm:grid sm_grid-rows-subgrid sm:row-start-2 sm:row-span-3 w-full sm:h-full bg-main_green rounded-3xl outline-none hover:bg-hover_green group my-2 "
         value = "2" onClick = {handleButtonClick}>
             <div>
                 <svg class="size-16 fill-current text-white ml-auto stroke-main_green group-hover:stroke-hover_green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" >
