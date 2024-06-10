@@ -27,9 +27,9 @@ function ComplexButton(obj) {
 			<path stroke-linecap="round" stroke-linejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
 		</svg>
 
-		<div>
+		<div class = "flex ">
 			<img src = {obj.img} class = {obj.img_style} alt = "figur"/>
-			<span class="text-white text-4xl ">{obj.text}</span>
+			<span class="text-white text-4xl m-auto">{obj.text}</span>
 		</div>
 
 	</button>

@@ -8,11 +8,12 @@ function SimpleButton(obj){
                     <svg class="size-16 fill-current text-white ml-auto stroke-main_green group-hover:stroke-hover_green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" >
                     <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                     </svg>
-                    <img src = {obj.img} class = {obj.img_style} alt = "figur"/>
+                    
                 </a>
 
-                <a class = "text-center" href={obj.link} target="_blank">
-                    <span class = "text-white text-4xl">{obj.text}</span>
+                <a class = "text-center flex py-5" href={obj.link} target="_blank">
+                    <img src = {obj.img} class = {obj.img_style} alt = "figur"/>
+                    <span class = "text-white text-4xl m-auto">{obj.text}</span>
                 </a>
  
             </div>)
