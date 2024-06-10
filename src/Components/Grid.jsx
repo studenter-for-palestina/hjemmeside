@@ -26,7 +26,7 @@ function Grid(obj){
             <ComplexButton row_loc="row-start-3" col_loc="col-start-3" span="row-span-2" img="members.svg" img_style = "size-20" text = "Ønskeliste"/>
 
             <SimpleButton row_loc="row-start-1" col_loc="col-start-4" span="row-span-2" link = {obj.spleis_link} 
-            img="spleis_logo.png" img_style = "w-1/4" text=""/>
+            img="spleis_logo.png" img_style = "w-1/4 " text="Støtt oss"/>
 
             <SimpleButton row_loc="row-start-3" col_loc="col-start-4" span="row-span-2" img="members.svg" img_style = "size-20" link = {obj.placeholder} text = "PLACEHOLDER"/>
 
