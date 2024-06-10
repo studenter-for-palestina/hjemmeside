@@ -7,7 +7,7 @@ function Kalender(obj){
       setVisibility(event.target.value === "1" ? "visible" : "hidden");
     }
     return(
-    <button className={obj.visibility + " " + "p-3 bg-second rounded-3xl outline-none hover:bg-third"}
+    <button className={obj.visibility + " " + "p-3 bg-main_green rounded-3xl outline-none hover:bg-third"}
     value = "1" onClick={handleButtonClick}>
         BACK
     </button>
