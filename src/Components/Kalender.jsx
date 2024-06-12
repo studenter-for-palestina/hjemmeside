@@ -1,18 +1,26 @@
-import { useAppContext } from '../Context/AppContext';
+import BackButton from './Sub-components/back-button';
+import { Fragment } from "react";
 
 function Kalender(obj){
-    const { visibility, setVisibility } = useAppContext();
+    return (
+        <Fragment>
+            <div class = "sm:grid sm:grid-cols-2 sm:gap-4 h-screen">
+                <div class = "h-full">
+                    <BackButton />
 
-    let handleButtonClick = (event) => {
-      setVisibility(event.target.value === "1" ? "visible" : "hidden");
-    }
-    return(
-    <button className={obj.visibility + " " + "p-3 bg-main_green rounded-3xl outline-none hover:bg-third"}
-    value = "1" onClick={handleButtonClick}>
-        BACK
-    </button>
+                </div>
+                <div class = "h-full grid grid-cols-1 divide-y-2">
+                    <div>hei</div>
+                    <div>hei</div>
+                    <div>hei</div>
+                    <div>hei</div>
+                </div>
+        
+
+            </div>
+        </Fragment>
+
     )
-    
 }
 
 export default Kalender;

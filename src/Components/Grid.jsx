@@ -4,8 +4,7 @@ import ComplexButton from "./Sub-components/complex-button.jsx";
 
 function Grid(obj){
     return(
-        <div class={ obj.visibility + " " + "h-screen sm:grid sm:grid-cols-4 sm:grid-rows-4 sm:grid-flow-col sm:gap-5 sm:p-10 p-5 outline-none"}>
-
+        <div class={"h-screen sm:grid sm:grid-cols-4 sm:grid-rows-4 sm:grid-flow-col sm:gap-5 sm:p-10 p-5 outline-none"}>
             <div class="sm:row-start-1 sm:col-start-1 sm:row-span-1">
                 <a href="https://palestinakomiteen.no/?doing_wp_cron=1717623410.9656150341033935546875" class="flex" target="_blank">
                     <img src="/logo.png" alt="logo" class="bg-white rounded-full size-40 mr-4"/>

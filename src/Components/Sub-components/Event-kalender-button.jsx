@@ -1,15 +1,15 @@
 import { useAppContext } from '../../Context/AppContext';
 
 function EventButton() {
-    const { visibility, setVisibility } = useAppContext();
+    const {page, setPage} = useAppContext();
     
     let handleButtonClick = (event) => {
-        setVisibility(event.target.value === "1" ? "visible" : "hidden");
+        setPage(event.currentTarget.value);
     }
 
     return (
         <button class="sm:grid sm_grid-rows-subgrid sm:row-start-2 sm:row-span-3 w-full bg-main_green rounded-3xl outline-none hover:bg-hover_green group my-2"
-        value = "2" onClick = {handleButtonClick}>
+        value = {2} onClick = {handleButtonClick}>
             <div>
                 <svg class="size-16 fill-current text-white ml-auto stroke-main_green group-hover:stroke-hover_green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" >
                     <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
