@@ -14,20 +14,25 @@ function Grid(obj){
 
             <EventButton/>
 
-            <ComplexButton row_loc="row-start-1" col_loc="col-start-2" span="row-span-1" img="info.svg" img_style = "size-20 ml-1" text = "om oss"/>
+            <ComplexButton row_loc="row-start-1" col_loc="col-start-2" span="row-span-1" img="info.svg" img_style = "size-20 ml-1" 
+            text = "om oss" value = {3}/>
 
             <SimpleButton row_loc="row-start-2" col_loc="col-start-2" span="row-span-1" link = {obj.bli_medlem_link} img="members.svg" img_style = "size-20 ml-1" text="Bli medlem"/>
             
-            <ComplexButton row_loc="row-start-3" col_loc="col-start-2" span="row-span-2" img="folder.svg" img_style = "size-20 ml-1" text = "Ressurser"/>
+            <ComplexButton row_loc="row-start-3" col_loc="col-start-2" span="row-span-2" img="folder.svg" img_style = "size-20 ml-1" 
+            text = "Ressurser" value = {4}/>
 
-            <ComplexButton row_loc="row-start-1" col_loc="col-start-3" span="row-span-2" img="fire.svg" img_style = "size-20 ml-1" text = "Solidaritetscamp Thawra"/>
+            <ComplexButton row_loc="row-start-1" col_loc="col-start-3" span="row-span-2" img="fire.svg" img_style = "size-20 ml-1" 
+            text = "Solidaritetscamp Thawra" value = {2}/>
 
-            <ComplexButton row_loc="row-start-3" col_loc="col-start-3" span="row-span-2" img="onskeliste.svg" img_style = "size-20 ml-1" text = "Ønskeliste"/>
+            <ComplexButton row_loc="row-start-3" col_loc="col-start-3" span="row-span-2" img="onskeliste.svg" img_style = "size-20 ml-1" 
+            text = "Ønskeliste" value = {2}/>
 
             <SimpleButton row_loc="row-start-1" col_loc="col-start-4" span="row-span-2" link = {obj.spleis_link} 
-            img="heart.svg" img_style = "w-1/4 ml-1" text="Støtt oss"/>
+            img="heart.svg" img_style = "w-1/4 ml-1" text="Støtt oss" />
 
-            <SimpleButton row_loc="row-start-3" col_loc="col-start-4" span="row-span-2" img="warning.svg" img_style = "size-20 ml-1" link = {obj.placeholder} text = "PLACEHOLDER"/>
+            <SimpleButton row_loc="row-start-3" col_loc="col-start-4" span="row-span-2" img="warning.svg" img_style = "size-20 ml-1" link = {obj.placeholder} 
+            text = "PLACEHOLDER"/>
 
         </div>
     )
