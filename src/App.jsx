@@ -18,30 +18,30 @@ function App() {
   const kalender = <Kalender 
                     events = {[
                     {title: "Sionismen", date: "12.12.2025", time: "10:00", location: "Thawra", 
-                    description: "This is a description of event 1 This is a description of event 1 This is a description of event 1 This is a description of event 1 This is a description of event 1 This is a description of event 1 This is a description of event 1", link: "https://www.google.com"
+                    description: "Peder Martin forteller om sionismen og dens hvordan sionismen spilleren avgjørende rolle. Han forteller også om sin erfaring med Isreal.", link: "https://www.google.com"
                     },
 
                     {title: "Nakbaen", date: "12.12.2025", time: "11:00", location: "Thawra", 
                     description: "This is a description of event 2", link: "https://www.google.com"
                     },
 
-                    {title: "Event 1", date: "12.12.2025", time: "10:00", location: "Thawra", 
+                    {title: "event 2", date: "12.12.2025", time: "10:00", location: "Thawra", 
                     description: "This is a description of event 1", link: "https://www.google.com"
                     },
 
-                    {title: "Event 1", date: "12.12.2025", time: "10:00", location: "Thawra", 
+                    {title: "event 3", date: "12.12.2025", time: "10:00", location: "Thawra", 
                     description: "This is a description of event 1", link: "https://www.google.com"
                     },
 
-                    {title: "Event 1", date: "12.12.2025", time: "10:00", location: "Thawra", 
+                    {title: "event 4", date: "12.12.2025", time: "10:00", location: "Thawra", 
                     description: "This is a description of event 1", link: "https://www.google.com"
                     },
 
-                    {title: "Event 1", date: "12.12.2025", time: "10:00", location: "Thawra", 
+                    {title: "event 5", date: "12.12.2025", time: "10:00", location: "Thawra", 
                     description: "This is a description of event 1", link: "https://www.google.com"
                     },
 
-                    {title: "Event 1", date: "12.12.2025", time: "10:00", location: "Thawra", 
+                    {title: "event 6", date: "12.12.2025", time: "10:00", location: "Thawra", 
                     description: "This is a description of event 1", link: "https://www.google.com"
                     },
 

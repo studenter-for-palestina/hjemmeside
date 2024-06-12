@@ -29,7 +29,7 @@ function OmOss(obj){
                 <div class = "grid">
                     <h2 class = "mb-4 font-bold">Bli med oss </h2>
                     Vi tror på at studenter kan være en kraft for positiv forandring. Ved å engasjere seg i Studenter for Palestina, kan du bidra til å skape en mer rettferdig verden. Uansett om du ønsker å lære mer, delta i aktivisme eller bidra med dine ferdigheter, er du hjertelig velkommen. Sammen kan vi gjøre en forskjell.
-                    <a class ="bg-main_green hover:bg-hover_green rounded-3xl w-1/4 text-center mt-12 mx-auto p-3" href={obj.bli_medlem_link}> BLI MEDLEM</a>
+                    <a class ="bg-main_green hover:bg-hover_green rounded-3xl sm:w-1/4 w-full text-center mt-12 mx-auto p-3" href={obj.bli_medlem_link}> BLI MEDLEM</a>
 
                 </div>
 
