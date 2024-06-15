@@ -23,7 +23,7 @@ function Grid(obj){
             img_style = "size-20 ml-1" text="Ressurser"/>
 
             <ComplexButton row_loc="row-start-1" col_loc="col-start-3" span="row-span-2" img="fire.svg" img_style = "size-20 ml-1" 
-            text = "Solidaritetscamp Thawra" value = {2}/>
+            text = "Solidaritetscamp Thawra" value = {4}/>
 
             <ComplexButton row_loc="row-start-3" col_loc="col-start-3" span="row-span-2" img="onskeliste.svg" img_style = "size-20 ml-1" 
             text = "Ønskeliste" value = {2}/>
@@ -32,7 +32,7 @@ function Grid(obj){
             img="heart.svg" img_style = "w-1/4 ml-1" text="Støtt oss" />
 
             <SimpleButton row_loc="row-start-3" col_loc="col-start-4" span="row-span-2" img="warning.svg" img_style = "size-20 ml-1" link = {obj.placeholder} 
-            text = "PLACEHOLDER"/>
+            text = "Sosiale medier"/>
 
         </div>
     )

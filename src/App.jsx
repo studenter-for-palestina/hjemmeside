@@ -2,6 +2,8 @@ import './App.css'
 import Grid from './Components/Grid'
 import Kalender from './Components/Kalender'
 import OmOss from './Components/OmOss'
+import Campen from './Components/Campen'
+
 import { useAppContext } from "./Context/AppContext";
 
 function App() {
@@ -12,7 +14,7 @@ function App() {
                   bli_medlem_link = "https://docs.google.com/forms/d/e/1FAIpQLScKfgm3Pt80zE9Ll6ogfbUeJRqd0Wzdt74jnPrxzgahOFHr6g/viewform"
                   spleis_link = "https://www.spleis.no/project/371936"
                   disk_link = "https://drive.google.com/drive/folders/12IzO-MJ8YODd933nfj6TT1PiTv7eesl7?usp=sharing" 
-                  placeholder = "/"
+                  placeholder = "https://linktr.ee/Studenterforpalestinatrd"
                   />
 
   const kalender = <Kalender 
@@ -51,6 +53,7 @@ function App() {
                 bli_medlem_link = "https://docs.google.com/forms/d/e/1FAIpQLScKfgm3Pt80zE9Ll6ogfbUeJRqd0Wzdt74jnPrxzgahOFHr6g/viewform"
                 />
 
+  const campen = <Campen/>
 
   console.log(page)
   if (page == 1){
@@ -61,6 +64,9 @@ function App() {
   }
   else if (page == 3){
     return omOss
+  }
+  else if (page == 4){
+    return campen
   }
 }
 
