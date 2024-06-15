@@ -9,7 +9,7 @@ function ComplexButton(obj) {
 	if (obj.span === "row-span-2") {
 		return (
 		<button class={obj.row_loc + " " + obj.col_loc + " " + obj.span + " " 
-			+ "sm:grid sm:grid-rows-subgrid outline-none bg-main_green rounded-3xl hover:bg-hover_green group w-full sm:h-full my-2"} 
+			+ "sm:grid sm:grid-rows-subgrid outline-none bg-main_green rounded-3xl hover:bg-hover_green group w-full sm:h-full my-2 shadow-xl"} 
 			value = {obj.value} onClick = {handleButtonClick}>
 				
 				<div>
@@ -29,7 +29,7 @@ function ComplexButton(obj) {
 	else{
 	return (
 	<button class={obj.row_loc + " " + obj.col_loc + " " + obj.span + " " 
-		+ "bg-main_green rounded-3xl hover:bg-hover_green outline-none group w-full my-2 "}
+		+ "bg-main_green rounded-3xl hover:bg-hover_green outline-none group w-full my-2 shadow-xl"}
 		value = {obj.value} onClick = {handleButtonClick}>
 
 		<svg class="size-16 fill-current text-white ml-auto stroke-main_green group-hover:stroke-hover_green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" >

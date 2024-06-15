@@ -2,7 +2,7 @@ function SimpleButton(obj){
     if (obj.span === "row-span-2"){
         return (         
             <div class={obj.row_loc + " " + obj.col_loc + " " + obj.span + " " 
-            + "sm:grid sm:grid-rows-subgrid bg-main_green rounded-3xl shadow-3xl hover:bg-hover_green hover:cursor-pointer group w-full sm:h-full my-2"}>   
+            + "sm:grid sm:grid-rows-subgrid bg-main_green rounded-3xl hover:bg-hover_green hover:cursor-pointer group w-full sm:h-full my-2 shadow-xl"}>   
             
                 <a href={obj.link} target="_blank">
                     <svg class="size-16 fill-current text-white ml-auto stroke-main_green group-hover:stroke-hover_green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" >
@@ -21,7 +21,7 @@ function SimpleButton(obj){
     else{
         return (     
         <div class={obj.row_loc + " " + obj.col_loc + " " + obj.span + " " 
-        + " bg-main_green rounded-3xl shadow-3xl hover:bg-hover_green group w-full my-2"}>       
+        + " bg-main_green rounded-3xl  hover:bg-hover_green group w-full my-2 shadow-xl"}>       
             <a href={obj.link} target="_blank">
 
                 <svg class="size-16 fill-current text-white ml-auto stroke-main_green group-hover:stroke-hover_green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" >
