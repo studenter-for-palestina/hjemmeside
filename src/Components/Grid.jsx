@@ -19,8 +19,8 @@ function Grid(obj){
 
             <SimpleButton row_loc="row-start-2" col_loc="col-start-2" span="row-span-1" link = {obj.bli_medlem_link} img="members.svg" img_style = "size-20 ml-1" text="Bli medlem"/>
             
-            <ComplexButton row_loc="row-start-3" col_loc="col-start-2" span="row-span-2" img="folder.svg" img_style = "size-20 ml-1" 
-            text = "Ressurser" value = {4}/>
+            <SimpleButton row_loc="row-start-3" col_loc="col-start-2" span="row-span-2" link = {obj.disk_link} img="folder.svg"
+            img_style = "size-20 ml-1" text="Ressurser"/>
 
             <ComplexButton row_loc="row-start-1" col_loc="col-start-3" span="row-span-2" img="fire.svg" img_style = "size-20 ml-1" 
             text = "Solidaritetscamp Thawra" value = {2}/>
