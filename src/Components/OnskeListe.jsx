@@ -8,13 +8,13 @@ function OnskeListe(obj){
                 <div>
                     <BackButton/>
                 </div>
-                <div class = "my-5 mx-2 p-4 bg-main_green rounded-3xl overflow-y-auto">
-                    <h1 class = "text-3xl font-bold text-center text-white"  >Ønskeliste</h1>
-                    {obj.liste.map((item, index) => (
-                        <Liste index = {index+1} item = {item}/>
-                    ))}
- 
-                </div>
+                    <div class = "my-5 mx-2 p-4 bg-main_green rounded-3xl overflow-y-auto">
+                        <h1 class = "text-3xl font-bold text-center text-white"  >Ønskeliste</h1>
+                        {obj.liste.map((item, index) => (
+                            <Liste index = {index+1} item = {item}/>
+                        ))}
+    
+                    </div>
                 <div>
                 
                 </div>
