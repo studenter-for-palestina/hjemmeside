@@ -8,15 +8,20 @@ import { useAppContext } from "./Context/AppContext";
 
 function App() {
 	const { page } = useAppContext();
-    
+  
+  {/*Variablen under medlem_link kan endres*/}
+  const medlem_link = "https://docs.google.com/forms/d/e/1FAIpQLScKfgm3Pt80zE9Ll6ogfbUeJRqd0Wzdt74jnPrxzgahOFHr6g/viewform"
+
+  {/*Variablene under Grid kan endres*/}
   const grid = <Grid 
                   by = "Trondheim" 
-                  bli_medlem_link = "https://docs.google.com/forms/d/e/1FAIpQLScKfgm3Pt80zE9Ll6ogfbUeJRqd0Wzdt74jnPrxzgahOFHr6g/viewform"
+                  bli_medlem_link = {medlem_link}
                   spleis_link = "https://www.spleis.no/project/371936"
                   disk_link = "https://drive.google.com/drive/folders/12IzO-MJ8YODd933nfj6TT1PiTv7eesl7?usp=sharing" 
                   link_tree = "https://linktr.ee/Studenterforpalestinatrd"
                   />
 
+  {/*Variablene under Kalender kan endres*/}
   const kalender = <Kalender 
                     events = {[
                     {title: "Sionismen", date: "12.12.2025", time: "10:00", location: "Thawra", 
@@ -49,12 +54,14 @@ function App() {
 
                     ]}/>
 
+  {/*Variablen(e) under OmOss kan endres*/}
   const omOss = <OmOss
-                bli_medlem_link = "https://docs.google.com/forms/d/e/1FAIpQLScKfgm3Pt80zE9Ll6ogfbUeJRqd0Wzdt74jnPrxzgahOFHr6g/viewform"
+                bli_medlem_link = {medlem_link}
                 />
 
   const campen = <Campen/>
 
+  {/*variablen(e) under onskeListe kan endres */}
   const onskeListe = <OnskeListe
                     liste = {["Oppbevaringsbokser","Preseninger","Bålpanne","Gulvtepper","Varme måltider","Soveposer","Liggeunderlag","Telt","Varme klær","Hansker", "Lyskilder"]}/>
 
