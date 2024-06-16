@@ -22,8 +22,14 @@ git commit -m "passende kommentar om hva som er blitt endra"
 git push
 ```
 
-Til slutt må endringene sendes opp mot serveren. 
+husk å sende endringene opp mot serveren. 
 
 ```js
 npm run deploy                          /* Sender endringene til nettet */
+```
+
+Til slutt gå inn på [settings](https://github.com/studenter-for-palestina/hjemmeside/settings) for å endre dommenet navnet til 
+
+```bash
+studenterforpalestina.no
 ```
