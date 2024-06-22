@@ -24,32 +24,12 @@ function App() {
   {/*Variablene under Kalender kan endres*/}
   const kalender = <Kalender 
                     events = {[
-                    {title: "Sionismen", date: "12.12.2025", time: "10:00", location: "Thawra", 
-                    description: "Peder Martin forteller om sionismen og dens hvordan sionismen spilleren avgjørende rolle. Han forteller også om sin erfaring med Isreal.", link: "https://www.google.com"
+                    {title: "Sionismen", date: "14.06.2025", time: "18:00", location: "Thawra", 
+                    description: "Peder Martin forteller om sionismen og dens hvordan sionismen spilleren avgjørende rolle. Han forteller også om sin erfaring med Isreal.", link: "https://www.facebook.com/p/Studenter-for-Palestina-Trondheim-100087592323689/"
                     },
 
-                    {title: "Nakbaen", date: "12.12.2025", time: "11:00", location: "Thawra", 
-                    description: "This is a description of event 2", link: "https://www.google.com"
-                    },
-
-                    {title: "event 2", date: "12.12.2025", time: "10:00", location: "Thawra", 
-                    description: "This is a description of event 1", link: "https://www.google.com"
-                    },
-
-                    {title: "event 3", date: "12.12.2025", time: "10:00", location: "Thawra", 
-                    description: "This is a description of event 1", link: "https://www.google.com"
-                    },
-
-                    {title: "event 4", date: "12.12.2025", time: "10:00", location: "Thawra", 
-                    description: "This is a description of event 1", link: "https://www.google.com"
-                    },
-
-                    {title: "event 5", date: "12.12.2025", time: "10:00", location: "Thawra", 
-                    description: "This is a description of event 1", link: "https://www.google.com"
-                    },
-
-                    {title: "event 6", date: "12.12.2025", time: "10:00", location: "Thawra", 
-                    description: "This is a description of event 1", link: "https://www.google.com"
+                    {title: "TBA", date: "TBA", time: "00:00", location: "Thawra", 
+                    description: "TBA", link: "/"
                     },
 
                     ]}/>
