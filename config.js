@@ -21,18 +21,18 @@ export default {
     ],
     EVENTS: [
         {
-          title: "Sionismen",
-          date: "14.06.2025",
-          time: "18:00",
-          location: "Thawra",
-          description: "Peder Martin forteller om sionismen og dens hvordan sionismen spilleren avgjørende rolle. Han forteller også om sin erfaring med Isreal.",
-          link: "https://www.facebook.com/p/Studenter-for-Palestina-Trondheim-100087592323689/"
+          title: "Stand",
+          date: "13.08.2024",
+          time: "14:00",
+          location: "Elgeseter park",
+          description: "Snakk med oss på stand",
+          link: ""
         },
         {
           title: "TBA",
           date: "TBA",
           time: "00:00",
-          location: "Thawra",
+          location: "TBA",
           description: "TBA",
           link: "/"
         }
