@@ -15,7 +15,7 @@ function App() {
                   bli_medlem_link = {config.LENKER.MEDLEM_LINK}
                   spleis_link = {config.LENKER.SPLEIS_LINK}
                   disk_link = {config.LENKER.DISK_LINK}
-                  link_tree = {config.LENKER.LINK_TREE}
+                  face_page = {config.LENKER.FACE_PAGE}
                   />
 
   const kalender = <Kalender events = {config.EVENTS}/>

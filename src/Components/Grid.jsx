@@ -31,7 +31,7 @@ function Grid(obj){
             <SimpleButton row_loc="row-start-1" col_loc="col-start-4" span="row-span-2" link = {obj.spleis_link} 
             img="heart.svg" img_style = "w-1/4 ml-1" text="Støtt oss" />
 
-            <SimpleButton row_loc="row-start-3" col_loc="col-start-4" span="row-span-2" img="glob.svg" img_style = "size-20 ml-1" link = {obj.link_tree} 
+            <SimpleButton row_loc="row-start-3" col_loc="col-start-4" span="row-span-2" img="glob.svg" img_style = "size-20 ml-1" link = {obj.face_page} 
             text = "Sosiale medier"/>
 
         </div>
