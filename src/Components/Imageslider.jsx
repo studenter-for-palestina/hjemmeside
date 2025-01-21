@@ -18,7 +18,7 @@ const Carousel = () => {
 
   return (
     <div id="gallery" className="relative w-full pt-6" data-carousel="slide">
-      <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
+      <div className="relative min-h-72 max-h-96  overflow-hidden rounded-lg md:h-96">
         {imageSliderContent.map((subItem, index) => (
           <div
           key={index}
@@ -30,7 +30,7 @@ const Carousel = () => {
             <a href={subItem.link} className="relative  block h-full">
               <img
                 src={subItem.image}
-                className="absolute block  h-auto hover:opacity-55  transition-all duration-200 ease-in-out "
+                className="absolute block w-full md:min-w-[35%] h-auto hover:opacity-55  transition-all duration-200 ease-in-out "
                 alt={`Slide ${index + 1}`}
             />
               <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 text-center
