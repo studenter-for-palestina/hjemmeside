@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className="items-center space-x-2">
       <a href="/">
         <img
-          src="/logo.png"
+          src="/logo.webp"
           alt="Logo"
           className="h-28 md:h-36"
         />
