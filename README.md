@@ -17,5 +17,9 @@ git commit -m "hva som var oppdatert og hvorfor"
 git push
 # i tillegg til at endringene må sendes til github må man også deploye
 npm run deploy
+
 ```
+gå inn på [github settings](https://github.com/studenter-for-palestina/hjemmeside/settings/pages) og pass på at navnet på nettsiden fremdels er studenterforpalestina.no
+
+
 
