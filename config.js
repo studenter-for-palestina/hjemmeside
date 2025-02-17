@@ -1,7 +1,7 @@
 export const imageSliderContent = [
   {
     link: "https://docs.google.com/forms/d/e/1FAIpQLScR_Y7bGd3znYgbsZC6ECHexUsgjfZkyZYIaTvPtE7nsLSukg/viewform",
-    image: "demo_hev_blokkaden.webp",
+    image: "demo_hev_blokkaden_test.webp",
     text: "Engasjer deg!"
   },
   {
